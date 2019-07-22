@@ -8,6 +8,8 @@ go test -bench=Basic -benchtime=20s
 
 ```
 
-## mbp results @ 2.9ghz:
+## bench results (2.9ghz intel mbp)
 
-- basic bench: 1780352686 ns/op
+### n=512 (1<<9), r=1, p=1, key-len=1, key=64 bytes
+- 10 khps
+
